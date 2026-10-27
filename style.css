@@ -1,0 +1,160 @@
+/* Wireframe: lavora con l'inspector aperto, prova lì e poi riporta qui il codice
+
+
+/*RESETTARE LO STILE */
+/* METTIAMO I MARGINI A 0 E I PADDING A 0  e il box sizing a border box*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SIMULIAMO LO SMARTPHONE SETTANDO 
+LA LARGHEZZA DEL BODY A 512px 
+e diamo un bordo generale di 1px di tipo dashed 
+e di colore grigio*/
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    width: 512px;
+}
+
+/*IMPOSTIAMO L'HEADER CON UN PADDING 
+SUPERIORE/INFERIORE DI 10PX E LATERALE 
+(DESTRA/SINISTRA) DI 20PX
+DIAMO UN BORDO DI 2PX SOLID DI COLORE NERO*/
+
+.header img {
+    width: 512px;
+}
+
+/* IMPOSTIAMO LA CLASSE CONTENT PERCHÉ ABBIA UN
+PADDING DI 20PX SOPRA/SOTTO E 40PX DESTRA/SINISTRA */
+.content {
+    background-color: #191d7b;
+    padding: 20px 40px;
+    margin-bottom: -8px;
+    margin-top: -8px;
+}
+
+.title {
+    color: white;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "sigmar one";
+}
+
+.description {
+    color: white;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.container-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.windows-button {
+    background-color: white;
+    color: #191d7b;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 80%;
+    align-items: center;
+}
+
+.apple-button {
+    background-color: #5865f2;
+    color: white;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #5865f2;
+    cursor: pointer;
+    width: 80%;
+    align-items: center;
+}
+
+.video-demo {
+    width: 100%;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-make-it-yours {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #5865f2;
+    padding: 60px 40px;
+    margin-top: 40px;
+    border-radius: 5%;
+}
+
+.img-box {
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    width: 100px;
+}
+
+.container-make-it-yours-2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #31338c, #505bdd);
+    padding: 60px 40px;
+    margin-top: 40px;
+    border-radius: 5%;
+}
+
+.img-box-2 {
+    position: absolute;
+    top: -50px;
+    right: 40%;
+    width: 100px;
+}
+
+.title-box {
+    color: white;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "sigmar one";
+}
+
+.description-make-it-yours {
+    color: white;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
